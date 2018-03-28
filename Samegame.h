@@ -32,8 +32,6 @@ typedef struct CursorSprite
 	u8 KeyState;
 } CURSOR;
 
-#define MAX_LEVEL 1
-
 #define FLAG_GAMEOVER 1
 
 #define MAX_Y 17

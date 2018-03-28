@@ -6,9 +6,6 @@
 //Graphics
 #include "Cursor.c"
 #include "Blocks.c"
-//#include "AlphabetUpperCase.c"
-//#include "AlphabetLowerCase.c"
-//#include "Numbers.c"
 #include "ASCII.c"
 
 //Music
@@ -135,8 +132,7 @@ void main()
 
 		//Game over man
 		//Display an encouraging message and get the fuck out of here...
-		//Might want to think about a high score table at this point too...
-		PrintString(SCR_1_PLANE,0, 0, 18, "GAME OVER MAN!");
+		PrintString(SCR_1_PLANE,0, 0, 18, "GAME OVER");
 		Sleep(250);
 	}
 }
